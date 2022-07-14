@@ -9,7 +9,6 @@ import {
 } from "react-router-dom";
 
 import Navbar from './components/Navbar';
-import Footer from './components/Footer';
 import LandingPage from './routes/LandingPage';
 import Details from './routes/Details'; 
 
@@ -22,7 +21,6 @@ root.render(
         <Route path="/" element={<LandingPage />} />
         <Route path="/details" element={<Details />} />
       </Routes>
-      <Footer />
     </BrowserRouter>
   </React.StrictMode>
 );
